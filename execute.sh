@@ -1,6 +1,3 @@
-# FX_PATH for JavaFX API
-export FX_PATH=/usr/share/openjfx/lib
-
 # Compile code
 echo "Compiling source code..."
 javac --module-path $FX_PATH --add-modules javafx.controls -cp .:mysql-connector-java-8.0.28.jar -Xlint:unchecked com/orangomango/mysqlgui/Main.java

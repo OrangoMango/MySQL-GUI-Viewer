@@ -74,7 +74,7 @@ public class Main extends Application{
 	
 		File f = new File("credentials.txt");
 		if (!f.exists()){
-			f.createNewFile();
+			//f.createNewFile();
 		}
 	
 		this.stage = stage;
